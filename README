@@ -1,0 +1,120 @@
+BANK APPLICATION IN JAVA:
+
+Simple Banking Application
+This is a simple banking application implemented in Java. It allows users to perform basic banking operations such as deposits, withdrawals, checking balances, and exiting the program.
+
+Features
+Deposit: Users can deposit funds into their account.
+Withdraw: Users can withdraw funds from their account.
+Check Balance: Users can check their account balance.
+Exit: Users can exit the program.
+
+
+OUTPUT:
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 1
+Enter the deposit amount: 300000
+Deposit successful. Updated balance: $300000.0
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 2
+Enter the withdrawal amount: 20000
+Withdrawal successful. Updated balance: $280000.0
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 3
+Current balance: $280000.0
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 3
+Current balance: $280000.0
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 1cd "/Users/roshnipasapu/Documents/JAVA/untitled folder/" && javac BankCodeAlpha.java && java BankCodeAlpha
+Exception in thread "main" java.util.InputMismatchException
+        at java.base/java.util.Scanner.throwFor(Scanner.java:947)
+        at java.base/java.util.Scanner.next(Scanner.java:1602)
+        at java.base/java.util.Scanner.nextInt(Scanner.java:2267)
+        at java.base/java.util.Scanner.nextInt(Scanner.java:2221)
+        at BankCodeAlpha.main(BankCodeAlpha.java:17)
+(base) roshnipasapu@Roshnis-MacBook-Air-2 untitled folder % cd "/Users/roshnipasapu/Documents/JAVA/untitled folder/" && javac Ba
+nkCodeAlpha.java && java BankCodeAlpha
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 1
+Enter the deposit amount: 2300000 
+Deposit successful. Updated balance: $2300000.0
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 2
+Enter the withdrawal amount: 180000
+Withdrawal successful. Updated balance: $2120000.0
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 3
+Current balance: $2120000.0
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 4
+Exiting the program. Goodbye!
+(base) roshnipasapu@Roshnis-MacBook-Air-2 untitled folder % cd "/Users/roshnipasapu/Documents/JAVA/untitled folder/" && javac Ba
+nkCodeAlpha.java && java BankCodeAlpha
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 1
+Enter the deposit amount: 500
+Deposit successful. Updated balance: $500.0
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 1
+Enter the deposit amount: 500
+Deposit successful. Updated balance: $1000.0
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 2
+Enter the withdrawal amount: 1500
+Insufficient funds. Withdrawal not allowed.
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 3
+Current balance: $1000.0
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 2
+Enter the withdrawal amount: 1000
+Withdrawal successful. Updated balance: $0.0
+1. Deposit
+2. Withdraw
+3. Check Balance
+4. Exit
+Enter your choice: 4
+Exiting the program. Goodbye!
